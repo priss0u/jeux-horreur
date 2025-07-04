@@ -71,6 +71,7 @@ header{
     justify-content: center;
 }
 
+
 .displaycenter{
     display: flex;
     justify-content: space-evenly;
@@ -79,3 +80,30 @@ header{
 .footer{
     padding-bottom: 20px;
 }
+
+
+main{
+    background-image: url("../img/foret\ rouge.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+}
+
+.blanc{
+    color: rgb(173, 153, 153);
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+ 
+}
+
+.center{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
