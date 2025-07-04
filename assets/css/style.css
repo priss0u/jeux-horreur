@@ -71,3 +71,11 @@ header{
     justify-content: center;
 }
 
+.displaycenter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    padding-bottom: 20px;
+}
