@@ -72,6 +72,16 @@ header{
 }
 
 
+.displaycenter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    padding-bottom: 20px;
+}
+
+
 main{
     background-image: url("../img/foret\ rouge.jpg");
     background-repeat: no-repeat;
@@ -95,4 +105,5 @@ p{
     align-content: center;
     justify-content: center;
 }
+
 
