@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
 h1{
     color: rgb(223, 40, 40);
     text-align: center;
@@ -16,6 +19,35 @@ h1{
 .col-10 {width: 83.333333%;}
 .col-11 {width:91.666666%;}
 .col-12 {width: 100%;}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 100%;
+    margin: 0%;
+}
+
+nav a{
+    color: black;
+    font-family: "Manufacturing Consent", system-ui;
+}
+
+
+li{
+    display: flex;
+    justify-content:space-around;
+}
+
+nav{
+    background-color: rgb(223, 40, 40);
+    font-size: 60px;
+}
+
+
 /*Application de la police ainsi que Création de container*/
 .container{
     width: 100%;
@@ -38,3 +70,4 @@ header{
     display: flex;
     justify-content: center;
 }
+
