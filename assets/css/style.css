@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
 h1{
     color: rgb(223, 40, 40);
     text-align: center;
     font-size: 100px;
+    font-family: "Manufacturing Consent", system-ui;
 }
 
 .col-1 {width: 8.333333%;}
@@ -16,6 +20,25 @@ h1{
 .col-10 {width: 83.333333%;}
 .col-11 {width:91.666666%;}
 .col-12 {width: 100%;}
+
+
+nav a{
+    color: black;
+    font-family: "Manufacturing Consent", system-ui;
+}
+
+
+li{
+    display: flex;
+    justify-content:space-around;
+}
+
+nav{
+    background-color: rgb(223, 40, 40);
+    font-size: 60px;
+}
+
+
 /*Application de la police ainsi que Création de container*/
 .container{
     width: 100%;
@@ -38,6 +61,48 @@ header{
     display: flex;
     justify-content: center;
 }
+
+
+/*Met le fond en noir  et met le texte en blanc*/
+.catalogue{
+    background: black;
+    color: white;
+}
+/*Ajuste le contenu au centre*/
+}
+/*Créée une marge en dessous du contenu de 10 px*/
+.margin-bottom{
+    margin-bottom: 10px;
+}
+.list{
+    display:flex;
+    flex-direction: column;
+}
+.img-catalogue-pair{
+    display: flex;
+    justify-content: flex-end;
+}
+.img-catalogue-impair{
+    display: flex;
+    justify-content: flex-start;
+}
+.text-size{
+    font-size: 20px;
+}
+.margin-x{
+    margin: 0 20px;
+}
+
+
+.displaycenter{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    padding-bottom: 20px;
+}
+
 
 main{
     background-image: url("../img/foret\ rouge.jpg");
@@ -62,3 +127,6 @@ p{
     align-content: center;
     justify-content: center;
 }
+
+
+
