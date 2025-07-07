@@ -69,7 +69,7 @@ header{
     color: white;
 }
 /*Ajuste le contenu au centre*/
-}
+
 /*Créée une marge en dessous du contenu de 10 px*/
 .margin-bottom{
     margin-bottom: 10px;
@@ -129,5 +129,22 @@ p{
     justify-content: center;
 }
 
+.red{
+    background-color: black
+}
 
+.white{
+    color:   rgb(199, 31, 31);
+}
+
+.titre{
+    background-color: black;
+    color:  rgb(199, 31, 31);
+    margin: 0%;
+    display: flex;
+    font-size:50px ;
+    justify-content: center;
+    padding-bottom: 25px;
+    font-family: "Manufacturing Consent", system-ui;
+}
 
